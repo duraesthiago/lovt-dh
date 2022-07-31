@@ -12,45 +12,98 @@
 <body>
     <header>
         <div class="container">
-            <div>
-                <img src="./img/logo.svg" alt="Logo">
-                <span>You love, your Loft!</span>
+            <div class="menu">
+                <div id="logo-menu">
+                    <img src="./img/logo.svg" alt="Logo">
+                    <div id="logotext">
+                        <span>You love,</span>
+                        <span>your Loft!</span>
+                    </div>
+                </div>
+                <div>
+                    <img id="hamburguer" src="./img/hamburguer.svg" alt="Menu">
+                </div>
             </div>
-            <img src="./img/hamburguer.svg" alt="Menu">
         </div>
     </header>
     <main>
-        <img src="./img/slide-1.png" alt="Ambiente claro e mobilhado">
-        <section>
-            <article>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa incidunt quam reiciendis recusandae aut delectus excepturi blanditiis inventore doloremque aliquam ratione impedit quo id expedita tenetur quaerat voluptatum, natus unde?
-            </article>
-            <article>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos deleniti nobis eaque repellendus magnam. Quisquam adipisci nobis modi maiores illum facere pariatur aliquam illo, magnam temporibus omnis tempore esse iure?
-            </article>
-        </section>
-        <section>
-            <article>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, sit. Nulla atque similique beatae vitae, nisi sit itaque voluptate, rem numquam natus ipsam eaque debitis tenetur aut ducimus ad iste.
-            </article>
-            <article>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nihil non repellendus est reiciendis. Voluptatem omnis, laboriosam delectus beatae magni quasi autem eius libero? Similique, vitae? Unde sit soluta enim.
-            </article>
-            <article>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit qui, quia quae pariatur non esse aliquam quaerat magni dicta ducimus, doloremque corrupti a soluta nostrum debitis vero, ab atque recusandae!
-            </article>
-        </section>
-        <form action="">
-            <h2>Contato</h2>
-            <input placeholder="Nome" type="text">
-            <input placeholder="Email" type="text">
-            <input placeholder="Telefone" type="text">
-            <textarea placeholder="Digite sua mensagem" name="" id="" cols="30" rows="10"></textarea>
-            <button>Enviar</button>
-        </form>
+        <div class="container">
+            <img id="slide" src="./img/slide-1.png" alt="Ambiente claro e mobilhado">
+            <section id="sales">
+                <article class="salesbox">
+                    <img src="./img/foto-project-1.png" alt="Apartamento em venda 01">
+                    <div class="price">
+                        <span id="price-label">$ 1,200</span>
+                        <span id="label-new">NEW</span>
+                    </div>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, eum sint libero quisquam
+                        nihil eaque eveniet dolorem inventore provident impedit labore dolor suscipit voluptatum
+                        nesciunt quas eos beatae cumque saepe.
+                    </p>
+                </article>
+                <article class="salesbox">
+                    <img src="./img/foto-project-2.png" alt="Apartamento em venda 01">
+                    <div class="price">
+                        <span id="price-label">$ 2,000</span>
+                        <span id="label-sale">SALE</span>
+                    </div>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, eum sint libero quisquam
+                        nihil eaque eveniet dolorem inventore provident impedit labore dolor suscipit voluptatum
+                        nesciunt quas eos beatae cumque saepe.
+                    </p>
+                </article>
+            </section>
+            <section>
+                <h2>Your Style</h2>
+                <article class="banner-img">
+                    <img src="./img/industrial.png" alt="Loft Industrial">
+                    <label for="">Industrial</label>
+                </article>
+                <article class="banner-img">
+                    <img src="./img/moderno.png" alt="Loft Moderno">
+                    <label for="">Moderno</label>
+                </article>
+                <article class="banner-img">
+                    <img src="./img/classico.png" alt="Loft Clássico">
+                    <label for="">Clássico</label>
+                </article>
+            </section>
+            <form action="">
+                <h2>Contato</h2>
+                <input placeholder="Nome" type="text">
+                <input placeholder="Email" type="text">
+                <input placeholder="Telefone" type="text">
+                <textarea placeholder="Digite sua mensagem" name="" id="" cols="30" rows="10"></textarea>
+                <button>Enviar</button>
+            </form>
+        </div>
     </main>
     <footer>
-
+        <div class="container">
+            <div class="footer-container">
+                <img id="mapa" src="./img/image 1.svg" alt="Mapa">
+                <div class="text-footer">
+                    <article>
+                        <span>LOVT - You love, your loft!</span>
+                        <span>Broad St, Newark, NJ 07102 - USA</span>
+                        <span>+1 (973) 854-555-548</span>
+                        <span>contact@lovtrealstate.com</span>
+                    </article>
+                    <article>
+                        <div id="socialmedia">
+                            <span>OUR SOCIAL MEDIA</span>
+                            <div id="icons">
+                                <img src="./img/instagram.svg" alt="Instagram">
+                                <img src="./img/facebook.svg" alt="Facebook">
+                                <img src="./img/whatsapp.svg" alt="Whatsapp">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
